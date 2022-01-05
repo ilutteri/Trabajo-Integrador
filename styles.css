@@ -1,0 +1,19 @@
+.navbar{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    height: 60px;
+  }
+
+.profile{
+    height: 170px;
+    border-radius: 100%;
+    position: absolute;
+    top: 255px;
+    left: 4px;
+    border-width: 100px;
+    border-color: black;
+}
