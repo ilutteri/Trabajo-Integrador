@@ -1,15 +1,194 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9b2e60ab75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/css-circular-prog-bar.css" rel="stylesheet">
+
+    <title>Proyecto Argentina Programa</title>
+  </head>
+
 <body>
-    <div class="header">
-     Manuel Sadosky
+
+    <nav class="navbar navbar-dark bg-dark">        <!--Navbar / Login-->
+      <a class="navbar-brand" href="#">
+        <img src="img/logoAp.png" width="125" height="45" alt="argprod">
+      </a>
+      <div>
+        <icons class="align-bottom">
+          <i type="button" class="fab fa-facebook" style="font-size: 2em;color:white"></i></i>
+          <i type="button" class="fab fa-github" style="font-size: 2em;color:white"></i></i>
+          <i type="button" class="fab fa-linkedin" style="font-size: 2em; color:white"></i>
+        </icons> 
+        <button type="button" class="btn btn-outline-success" id="loginBt">Login</button>
+      </div>
+    </nav>
+   
+
+    <div class="card mb-3">    <!--Banner / Profile / Review-->
+      <img src="img/banner.jpg" class="responsive" id="banner" alt="Mountains And Clouds">
+      <img src="img/profile.jpeg" class="card-img-top rounded-circle" id="profile" alt="Profile picture">
+      <div class="card-body">
+        <h5 class="card-title"> Ignacio Lutteri </h5>
+        <p class="card-text"> Full Stack Developer Jr. </p>
+        <div class="d-flex flex-row-reverse bd-highlight" id="Review">
+          <b>Me encuentro realizando el curso Argentina Programa, <br> dando mis primeros pasos realizando Aplicaciones Web <br> tanto en el desarrollo FrontEnd como en el BackEnd.</b>
+        </div>
+      </div>
     </div>
-</body>
+
+  <div class="card mb-3">   <!--Experiencia Laboral-->
+      <div class="card-body">
+        
+        <div class="d-flex justify-content-between"> 
+          <h2>Experiencia</h2>
+          <i class="fas fa-plus"></i>
+        </div>
+
+        <div class="media" style="margin:20px">
+          <img src="img/logoOddity.png" class="align-self-start mr-3" width="90" height="90" alt="oddity" style="margin-right: 20px">
+          <div class="media body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><h5> Vendedor</h5></li>
+              <li class="list-group-item">
+                <dl>
+                  <dd>Oddity Music - Jornada Completa</dd>
+                  <dd>Septiembre 2017 - Actualidad - 4 años y 4 meses</dd>
+                  <dd>Capital Federal, Argentina</dd>
+                </dl>
+              </li>
+            </ul>
+            <div class="edit">
+              <i class="fas fa-pen"></i>
+              <i class="fas fa-trash-alt"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+  <div class="card-group">
+
+    <div class="card mb-3 rounded" id="educ">   <!--Educación-->
+    <div class="card-body">
+      
+      <div class="d-flex justify-content-between">
+        <h2>Educación</h2>                           
+        <i class="fas fa-plus"></i>
+      </div>
+
+      <div class="media" style="margin:20px">
+          <img src="img/logoInf.png" width="90" height="90" alt="LogoInf" style="margin-right: 20px">
+          <div class="media body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><h5>Facultad de Informática UNLP</h5></li>
+              <li class="list-group-item">
+                  <dl>
+                    <dd>Analista Programador Universitario</dd>
+                    <dd>2015 - 2017 / Incompleto</dd>
+                    </dl>
+              </li>
+            </ul>
+            <div class="edit">
+              <i class="fas fa-pen"></i>
+              <i class="fas fa-trash-alt"></i>
+            </div>
+          </div>
+      </div>
+
+      <div class="media" style="margin:20px">
+        <img src="img/logoICM.png" width="80" height="90" alt="LogoICM" style="margin-right: 45px">
+        <div class="media body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h5>Instituto Corazón de María</h5></li>
+            <li class="list-group-item">
+              <dl>
+                <dd>Bachiller Contable</dd>
+                <dd>2005 - 2007</dd>
+              </dl>
+            </li>
+          </ul>
+          <div class="edit">
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash-alt"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="media" style="margin:20px">
+        <img src="img/logoCamb.png" width="90" height="90" alt="LogoCamb" style="margin-right: 20px">
+        <div class="media body">
+            <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h5>Instituto Cambridge de Cultura Inglesa</h5></li>
+            <li class="list-group-item">
+              <dl>
+                <dd>Título Superior</dd>
+                <dd>2000 - 2007</dd>
+                </dl>
+            </li>
+          </ul>
+          <div class="edit">
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash-alt"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="media" style="margin:20px">
+        <img src="img/logoFreecode.png" width="70" height="50" alt="LogoFrecodeCamp" style="margin-right: 27px;margin-left: 10px"> 
+        <div class="media body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h5>FreeCode Camp</h5></li>
+            <li class="list-group-item">
+              <dl>
+                <dd>JavaScript Algorithms and Data Structures Certification</dd>
+                <dd> Sept 2021 - Oct 2021</dd>
+                <dd><a href="https://www.freecodecamp.org/certification/fcc9e597d5e-56de-4a60-bed6-718fea41c521/javascript-algorithms-and-data-structures"> Link</a></dd>
+              </dl>
+            </li>
+          </ul>
+          <div class="edit">
+            <i class="fas fa-pen"></i>
+            <i class="fas fa-trash-alt"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div class="card mb-3 rounded">   <!--Habilidades-->
+    <div class="card-body">
+      
+      <div class="d-flex justify-content-between" > 
+        <h2>Hard and Soft Skills</h2>
+        <i class="fas fa-plus"></i>
+      </div>
+
+      <div class="progress-circle p10">
+        <span>10%</span>
+        <div class="left-half-clipper">
+          <div class="first50-bar"></div>
+          <div class="value-bar"></div>
+        </div>
+      </div>
+
+
+
+    </div>
+    </div>
+  
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  </body>
+
 </html>

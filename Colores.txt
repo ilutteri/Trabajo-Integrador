@@ -1,6 +1,0 @@
-Colores para el proyecto
-
-
-HEX: #00A170 Verde menta
-HEX: #363945 Tinta
-HEX: #E9897E Coral
