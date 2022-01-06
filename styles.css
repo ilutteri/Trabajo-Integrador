@@ -12,6 +12,7 @@ body{
     height: 55px;
   }
 
+
 #profile{
   height: 150px;
   width: 150px;
@@ -36,3 +37,6 @@ icons{
   float:right;
 }
 
+.edit{
+  margin-left: 7px
+}
