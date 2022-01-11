@@ -5,7 +5,7 @@
    padding: 0;
    width: 5em;
    height: 5em;
-   background-color: #f2f2f2; 
+   background-color: #FFFFFF; 
    border-radius: 50%;
    line-height: 5em;
 }
@@ -20,7 +20,7 @@
     border-radius: 50%;
     width: 4.3em;
     height: 4.3em;
-    background-color: #f2f2f2;
+    background-color: #FFFFFF;
     content: " ";
 }
 /* Text inside the control */
